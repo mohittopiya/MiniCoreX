@@ -11,15 +11,12 @@ This repository contains the complete RTL design and verification setup for the 
 - `Makefile` – Automates compilation, simulation, and code coverage generation
 - `SIM/` – Stores simulation outputs, logs, and result files
 - `SIM/MiniCoreX_code_coverage/` – Contains code coverage reports
-- `SIM/terminal_output.txt` - Contains output of testbench 
+- `SIM/terminal_output.txt` - Contains output of testbench
+- `SIM/wave.do` - waveform file
+- `MiniCoreX-schematic.sch` - Conatins schematic of design
 
 ## Tools Used
 
 - **Mentor Graphics QuestaSim** – Used for compiling, simulating, and generating functional coverage reports
 
-## Quick Start
 
-To compile and simulate the project:
-
-```bash
-make
