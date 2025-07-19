@@ -6,14 +6,14 @@ This repository contains the complete RTL design and verification setup for the 
 
 ## Project Structure
 
-- `RTL/` – Contains the Verilog source files for the MiniCoreX processor design
-- `TB/` – Contains the verification code used to validate different modules
-- `Makefile` – Automates compilation, simulation, and code coverage generation
+- `RTL/` – Contains the Verilog source file for the MiniCoreX processor design
+- `TB/` – Contains the verification Testbench code used to validate design
 - `SIM/` – Stores simulation outputs, logs, and result files
-- `SIM/MiniCoreX_code_coverage/` – Contains code coverage reports
-- `SIM/terminal_output.txt` - Contains output of testbench
+- `SIM/Makefile` – Contains commands for automated compilation, simulation, and code coverage
+- `SIM/MiniCoreX_code_coverage/` – Contains code coverage report
+- `SIM/terminal_output.txt` - Contains output of verification
 - `SIM/wave.do` - waveform file
-- `MiniCoreX-schematic.sch` - Conatins schematic of design
+- `SIM/MiniCoreX_schematic.sch` - Conatins schematic of design
 
 ## Tools Used
 
