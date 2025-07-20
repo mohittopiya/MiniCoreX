@@ -2,7 +2,7 @@
 
 This repository contains the complete RTL design and verification setup for the **MiniCoreX** processor core. The project implements and validates key components such as the ALU, barrel shifter, universal shift register (USR), and memory unit using parameterized Verilog modules.
 
-> ✅ The RTL is written in a highly flexible and reusable way — signal widths for data and address are parameterized, making it easy to scale or modify the design in the future without changing the core logic.
+> The RTL is written in a highly flexible and reusable way — signal widths for data and address are parameterized, making it easy to scale or modify the design in the future without changing the core logic.
 
 ## Project Structure
 
